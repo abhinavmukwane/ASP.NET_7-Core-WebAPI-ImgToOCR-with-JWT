@@ -1,7 +1,7 @@
 # ASP.NET_7-Core-WebAPI-ImgToOCR-with-JWT
-ASP.NET_7-Core-WebAPI-ImgToOCR-with-JWT
 
-To Generate Token call API:
+To Generate Token use API:
+Action: POST
 /api/jwtTokenGen/getToken
 
 Payload: 
@@ -12,7 +12,8 @@ Payload:
 }
 
 
-To call Img TO OCR API:
+To Use Img TO OCR API:
+Action: POST
 /api/ocr/IMGtoOCR
 
 Payload:
